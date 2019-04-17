@@ -14,4 +14,17 @@
 ## Se ocorrer alguma falha devido a SSL, porque o computador usa internet através de um PROXY (escola/trabalho) deve-se executar o comando abaixo: </br>
 `git config --system http.sslverify false` </br>
 
+## Antes de começar a programar
+1) ver issues no site que estão assinadas para sua pessoa
+2) Executar o comando:
+`git pull`
 
+## Após terminar de programar
+1) adicionar arquivos alterados.
+`git add * `
+2) comentar sobre os arquivos alterados 
+`git commit -m "Tela de login e exemplo" ´
+3) subir alterações 
+`git push`
+
+## Se der problema ao executar o GIT PUSH, realize um GIT PULL primeiro. Se ele der pau, tem problemas na "mesclagem".
