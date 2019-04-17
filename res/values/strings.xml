@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">appEPSA</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cadastre">CADASTRE-SE</string>
+    <string name="entrar">ENTRAR</string>
+    <string name="esqueci">ESQUECI MINHA SENHA</string>
+    <string name="senha">SENHA:</string>
+    <string name="email">EMAIL</string>
+
+</resources>
