@@ -5,15 +5,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin" >
 
     <Button
-        android:id="@+id/bTentrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tVesquecisenha"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp"
-        android:text="@string/entrar" />
-
-    <Button
         android:id="@+id/bTcadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -22,12 +13,21 @@
         android:layout_marginTop="22dp"
         android:text="@string/cadastre" />
 
+    <Button
+        android:id="@+id/bTentrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVesquecisenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/entrar" />
+
     <EditText
         android:id="@+id/eTsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVsenha"
         android:layout_below="@+id/tVsenha"
-        android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textEmailAddress" />
 
@@ -37,16 +37,25 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/eTsenha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="17dp"
         android:text="@string/esqueci" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70"
+        android:layout_height="70"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_launcher" />
 
     <TextView
         android:id="@+id/tVemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/eTemail"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="37dp"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
         android:text="@string/email" />
 
     <EditText
@@ -56,18 +65,15 @@
         android:layout_alignLeft="@+id/tVsenha"
         android:layout_below="@+id/tVemail"
         android:ems="10"
-        android:inputType="textEmailAddress" >
-
-        <requestFocus />
-    </EditText>
+        android:inputType="textEmailAddress" />
 
     <TextView
         android:id="@+id/tVsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eTsenha"
         android:layout_below="@+id/eTemail"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/bTcadastrar"
         android:text="@string/senha" />
 
 </RelativeLayout>
