@@ -42,29 +42,34 @@
         android:text="@string/bemvindo" />
 
     <Button
-        android:id="@+id/bTentrar"
+        android:id="@+id/bTcadastrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tVesquecisenha"
+        android:layout_below="@+id/bTentrar"
         android:layout_centerHorizontal="true"
+<<<<<<< HEAD
         android:layout_marginTop="23dp"
         android:text="@string/entrar" />
 
     <Button
         android:id="@+id/bTcadastre"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bTentrar"
-        android:layout_centerHorizontal="true"
+=======
+        android:layout_marginTop="22dp"
         android:text="@string/cadastre" />
 
-    <TextView
-        android:id="@+id/tVesquecisenha"
+    <Button
+        android:id="@+id/bTentrar"
+>>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/eTsenha"
+        android:layout_below="@+id/tVesquecisenha"
         android:layout_centerHorizontal="true"
-        android:text="@string/esqueci" />
+<<<<<<< HEAD
+        android:text="@string/cadastre" />
+
+=======
+        android:layout_marginTop="20dp"
+        android:text="@string/entrar" />
 
     <EditText
         android:id="@+id/eTsenha"
@@ -73,6 +78,61 @@
         android:layout_alignLeft="@+id/tVsenha"
         android:layout_below="@+id/tVsenha"
         android:ems="10"
+        android:inputType="textEmailAddress" />
+
+>>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
+    <TextView
+        android:id="@+id/tVesquecisenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTsenha"
+        android:layout_centerHorizontal="true"
+<<<<<<< HEAD
+        android:text="@string/esqueci" />
+
+=======
+        android:layout_marginTop="17dp"
+        android:text="@string/esqueci" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="70"
+        android:layout_height="70"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tVemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eTemail"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginTop="20dp"
+        android:text="@string/email" />
+
+>>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
+    <EditText
+        android:id="@+id/eTsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVsenha"
+        android:layout_below="@+id/tVsenha"
+        android:ems="10"
+<<<<<<< HEAD
         android:inputType="number" />
+=======
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tVsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTemail"
+        android:layout_marginTop="15dp"
+        android:layout_toLeftOf="@+id/bTcadastrar"
+        android:text="@string/senha" />
+>>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
 
 </RelativeLayout>
