@@ -17,7 +17,7 @@
     <string name="bTcadastre">CADASTRE-SE</string>
     <string name="eTbemvindo">SEJA BEM VINDO</string>
     <string name="bemvindo">SEJA BEM VINDO</string>
-    <string name="title_activity_cadastro">CadastroActivity</string>
-    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_cadastro">Cadastro de Usuário</string>
+    <string name="title_activity_menu">Menu Principal</string>
 
 </resources>
