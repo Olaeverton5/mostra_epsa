@@ -1,60 +1,31 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:background="@style/AppTheme"
-    android:paddingLeft="@dimen/activity_horizontal_margin" >
-
-    <Button
-        android:id="@+id/bTentrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tVesquecisenha"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="43dp"
-        android:text="@string/entrar" />
-
-    <Button
-        android:id="@+id/bTcadastrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bTentrar"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:text="@string/cadastre" />
-
-    <EditText
-        android:id="@+id/eTsenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tVsenha"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:inputType="textEmailAddress" />
+    android:layout_height="fill_parent" >
 
     <TextView
-        android:id="@+id/tVesquecisenha"
+        android:id="@+id/tVsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/eTsenha"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="25dp"
-        android:text="@string/esqueci" />
+        android:layout_alignLeft="@+id/eTemail"
+        android:layout_below="@+id/eTemail"
+        android:layout_marginTop="27dp"
+        android:text="@string/senha" />
 
     <TextView
         android:id="@+id/tVemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/eTemail"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="37dp"
+        android:layout_below="@+id/tVsejabemvindo"
+        android:layout_marginTop="43dp"
         android:text="@string/email" />
 
     <EditText
         android:id="@+id/eTemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tVsenha"
         android:layout_below="@+id/tVemail"
+        android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textEmailAddress" >
 
@@ -62,12 +33,46 @@
     </EditText>
 
     <TextView
-        android:id="@+id/tVsenha"
+        android:id="@+id/tVsejabemvindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eTsenha"
-        android:layout_below="@+id/eTemail"
-        android:layout_marginTop="24dp"
-        android:text="@string/senha" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="@string/bemvindo" />
+
+    <Button
+        android:id="@+id/bTentrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVesquecisenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        android:text="@string/entrar" />
+
+    <Button
+        android:id="@+id/bTcadastre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTentrar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/cadastre" />
+
+    <TextView
+        android:id="@+id/tVesquecisenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTsenha"
+        android:layout_centerHorizontal="true"
+        android:text="@string/esqueci" />
+
+    <EditText
+        android:id="@+id/eTsenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVsenha"
+        android:layout_below="@+id/tVsenha"
+        android:ems="10"
+        android:inputType="number" />
 
 </RelativeLayout>
