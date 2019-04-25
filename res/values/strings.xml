@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-<<<<<<< HEAD
     <string name="app_name">APPEPSA</string>
-=======
-    <string name="app_name">.</string>
->>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="cadastre">CADASTRE-SE</string>

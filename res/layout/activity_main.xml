@@ -2,137 +2,80 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" >
 
+    <EditText
+        android:id="@+id/eTemail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVemail"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
     <TextView
         android:id="@+id/tVsenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/eTemail"
         android:layout_below="@+id/eTemail"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="30dp"
         android:text="@string/senha" />
-
-    <TextView
-        android:id="@+id/tVemail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eTemail"
-        android:layout_below="@+id/tVsejabemvindo"
-        android:layout_marginTop="43dp"
-        android:text="@string/email" />
-
-    <EditText
-        android:id="@+id/eTemail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tVemail"
-        android:layout_centerHorizontal="true"
-        android:ems="10"
-        android:inputType="textEmailAddress" >
-
-        <requestFocus />
-    </EditText>
-
-    <TextView
-        android:id="@+id/tVsejabemvindo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="36dp"
-        android:text="@string/bemvindo" />
-
-    <Button
-        android:id="@+id/bTcadastrar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bTentrar"
-        android:layout_centerHorizontal="true"
-<<<<<<< HEAD
-        android:layout_marginTop="23dp"
-        android:text="@string/entrar" />
-
-    <Button
-        android:id="@+id/bTcadastre"
-=======
-        android:layout_marginTop="22dp"
-        android:text="@string/cadastre" />
-
-    <Button
-        android:id="@+id/bTentrar"
->>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tVesquecisenha"
-        android:layout_centerHorizontal="true"
-<<<<<<< HEAD
-        android:text="@string/cadastre" />
-
-=======
-        android:layout_marginTop="20dp"
-        android:text="@string/entrar" />
 
     <EditText
         android:id="@+id/eTsenha"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/tVsenha"
         android:layout_below="@+id/tVsenha"
         android:ems="10"
-        android:inputType="textEmailAddress" />
+        android:inputType="number" >
 
->>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
+        <requestFocus />
+    </EditText>
+
     <TextView
         android:id="@+id/tVesquecisenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/eTsenha"
         android:layout_centerHorizontal="true"
-<<<<<<< HEAD
+        android:layout_marginTop="16dp"
         android:text="@string/esqueci" />
 
-=======
-        android:layout_marginTop="17dp"
-        android:text="@string/esqueci" />
-
-    <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="70"
-        android:layout_height="70"
-        android:layout_alignParentTop="true"
+    <Button
+        android:id="@+id/bTentrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVesquecisenha"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:src="@drawable/ic_launcher" />
+        android:layout_marginTop="19dp"
+        android:text="@string/entrar" />
+
+    <Button
+        android:id="@+id/bTcadastrese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTentrar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="@string/cadastre" />
 
     <TextView
         android:id="@+id/tVemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/eTemail"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginTop="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
         android:text="@string/email" />
 
->>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
-    <EditText
-        android:id="@+id/eTsenha"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tVsenha"
-        android:layout_below="@+id/tVsenha"
-        android:ems="10"
-<<<<<<< HEAD
-        android:inputType="number" />
-=======
-        android:inputType="textEmailAddress" />
-
     <TextView
-        android:id="@+id/tVsenha"
+        android:id="@+id/tVbemvindo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/eTemail"
-        android:layout_marginTop="15dp"
-        android:layout_toLeftOf="@+id/bTcadastrar"
-        android:text="@string/senha" />
->>>>>>> 83e657102c870305eca83ecbdf65ae1fd12e11cc
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/bemvindo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
 
 </RelativeLayout>
