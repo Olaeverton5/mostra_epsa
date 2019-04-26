@@ -11,6 +11,8 @@ public final class R {
     public static final class attr {
     }
     public static final class dimen {
+        public static final int Fonte=0x7f040002;
+        public static final int FonteBotoes=0x7f040003;
         /**  Default screen margins, per the Android Design guidelines. 
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
@@ -24,15 +26,34 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
-        public static final int bTcadastrese=0x7f080005;
-        public static final int bTentrar=0x7f080003;
-        public static final int eTemail=0x7f080000;
-        public static final int eTsenha=0x7f080007;
-        public static final int tVbemvindo=0x7f080006;
-        public static final int tVemail=0x7f080001;
-        public static final int tVesquecisenha=0x7f080004;
-        public static final int tVsenha=0x7f080002;
+        public static final int action_settings=0x7f08001b;
+        public static final int bTcadastrar=0x7f080010;
+        public static final int bTcadastrese=0x7f08001a;
+        public static final int bTentrar=0x7f080019;
+        public static final int bTlimpar=0x7f080012;
+        public static final int bTvoltar=0x7f080011;
+        public static final int eTcelular=0x7f08000b;
+        public static final int eTconfirmesenha=0x7f08000f;
+        public static final int eTcpf=0x7f080006;
+        public static final int eTdatanascimento=0x7f080008;
+        public static final int eTemail=0x7f080013;
+        public static final int eTemailcadastro=0x7f080004;
+        public static final int eTnomecompleto=0x7f080001;
+        public static final int eTsenha=0x7f080017;
+        public static final int eTsenhacadastro=0x7f08000d;
+        public static final int editText4=0x7f08000a;
+        public static final int scrollView1=0x7f080000;
+        public static final int tVbemvindo=0x7f080016;
+        public static final int tVcelular=0x7f080009;
+        public static final int tVconfirmesenha=0x7f08000e;
+        public static final int tVcpf=0x7f080005;
+        public static final int tVdatanascimento=0x7f080007;
+        public static final int tVemail=0x7f080014;
+        public static final int tVemailcadastro=0x7f080003;
+        public static final int tVesquecisenha=0x7f080018;
+        public static final int tVnomecompleto=0x7f080002;
+        public static final int tVsenha=0x7f080015;
+        public static final int tVsenhacadastro=0x7f08000c;
     }
     public static final class layout {
         public static final int activity_cadastro=0x7f030000;
@@ -52,7 +73,12 @@ public final class R {
         public static final int bTcadastre=0x7f05000d;
         public static final int bTentrar=0x7f05000c;
         public static final int bemvindo=0x7f05000f;
+        public static final int cadastrar=0x7f05001a;
         public static final int cadastre=0x7f050003;
+        public static final int celular=0x7f050016;
+        public static final int confirmesenha=0x7f050017;
+        public static final int cpf=0x7f050014;
+        public static final int datanascimento=0x7f050015;
         public static final int eTappepsa=0x7f050008;
         public static final int eTbemvindo=0x7f05000e;
         public static final int eTemail=0x7f050009;
@@ -62,10 +88,13 @@ public final class R {
         public static final int entrar=0x7f050004;
         public static final int esqueci=0x7f050005;
         public static final int hello_world=0x7f050002;
+        public static final int limpar=0x7f050019;
+        public static final int nome=0x7f050013;
         public static final int senha=0x7f050006;
         public static final int title_activity_cadastro=0x7f050010;
         public static final int title_activity_menu=0x7f050011;
         public static final int title_activity_recuperar_senha_main=0x7f050012;
+        public static final int voltar=0x7f050018;
     }
     public static final class style {
         /** 
