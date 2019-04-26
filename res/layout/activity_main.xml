@@ -66,6 +66,7 @@
         android:layout_alignLeft="@+id/bTcadastrese"
         android:layout_below="@+id/tVsenha"
         android:layout_marginTop="50dp"
+        android:onClick="recuperarsenha"
         android:text="@string/esqueci" />
 
     <EditText

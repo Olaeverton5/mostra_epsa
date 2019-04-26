@@ -30,5 +30,10 @@ public class MainActivity extends Activity {
         Intent it = new Intent(this, MenuActivity.class);
         startActivity(it);
 	}
+	
+	public void recuperarsenha(View v) {
+        Intent it = new Intent(this, RecuperarSenhaMainActivity.class);
+        startActivity(it);
+	}
 
 }

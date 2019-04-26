@@ -38,11 +38,13 @@ public final class R {
         public static final int activity_cadastro=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_menu=0x7f030002;
+        public static final int recuperar_senha_main=0x7f030003;
     }
     public static final class menu {
         public static final int cadastro=0x7f070000;
         public static final int main=0x7f070001;
         public static final int menu=0x7f070002;
+        public static final int recuperar_senha_main=0x7f070003;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -63,6 +65,7 @@ public final class R {
         public static final int senha=0x7f050006;
         public static final int title_activity_cadastro=0x7f050010;
         public static final int title_activity_menu=0x7f050011;
+        public static final int title_activity_recuperar_senha_main=0x7f050012;
     }
     public static final class style {
         /** 

@@ -19,5 +19,6 @@
     <string name="bemvindo">SEJA BEM VINDO</string>
     <string name="title_activity_cadastro">Cadastro de Usuário</string>
     <string name="title_activity_menu">Menu Principal</string>
+    <string name="title_activity_recuperar_senha_main">Recuperar Senha</string>
 
 </resources>

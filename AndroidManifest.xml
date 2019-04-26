@@ -30,6 +30,10 @@
             android:name="com.example.appepsa.MenuActivity"
             android:label="@string/title_activity_menu" >
         </activity>
+        <activity
+            android:name="com.example.appepsa.RecuperarSenhaMainActivity"
+            android:label="@string/title_activity_recuperar_senha_main" >
+        </activity>
     </application>
 
 </manifest>
