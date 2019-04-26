@@ -34,6 +34,7 @@ public class CadastroActivity extends Activity {
 		EditText email = (EditText) findViewById(R.id.eTemailcadastro);
 		EditText cpf = (EditText) findViewById(R.id.eTcpf);
 		EditText datanasc = (EditText) findViewById(R.id.eTdatanascimento);
+		EditText celular = (EditText) findViewById(R.id.eTcelular);
 		EditText senha = (EditText) findViewById(R.id.eTsenhacadastro);
 		EditText confirmesenha = (EditText) findViewById(R.id.eTconfirmesenha);
 
@@ -41,6 +42,7 @@ public class CadastroActivity extends Activity {
 		email.setText("");
 		cpf.setText("");
 		datanasc.setText("");
+		celular.setText("");
 		senha.setText("");
 		confirmesenha.setText("");
 		nome.requestFocus();
