@@ -5,11 +5,11 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="446dp" >
+        android:layout_height="515dp" >
 
         <EditText
             android:id="@+id/eTnomecompleto"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tVnomecompleto"
             android:layout_below="@+id/tVnomecompleto"
@@ -19,34 +19,18 @@
             <requestFocus />
         </EditText>
 
-        <TextView
-            android:id="@+id/tVemailcadastro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTnomecompleto"
-            android:layout_below="@+id/eTnomecompleto"
-            android:text="@string/email" />
-
         <EditText
             android:id="@+id/eTemailcadastro"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tVemailcadastro"
             android:layout_below="@+id/tVemailcadastro"
             android:ems="10"
             android:inputType="textEmailAddress" />
 
-        <TextView
-            android:id="@+id/tVcpf"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTemailcadastro"
-            android:layout_below="@+id/eTemailcadastro"
-            android:text="@string/cpf" />
-
         <EditText
             android:id="@+id/eTcpf"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tVcpf"
             android:layout_below="@+id/tVcpf"
@@ -63,20 +47,12 @@
 
         <EditText
             android:id="@+id/eTdatanascimento"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tVdatanascimento"
             android:layout_below="@+id/tVdatanascimento"
             android:ems="10"
             android:inputType="date" />
-
-        <TextView
-            android:id="@+id/tVcelular"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTdatanascimento"
-            android:layout_below="@+id/eTdatanascimento"
-            android:text="@string/celular" />
 
         <EditText
             android:id="@+id/editText4"
@@ -89,7 +65,7 @@
 
         <EditText
             android:id="@+id/eTcelular"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignBaseline="@+id/editText4"
             android:layout_alignBottom="@+id/editText4"
@@ -97,22 +73,68 @@
             android:ems="10"
             android:inputType="phone" />
 
-        <TextView
-            android:id="@+id/tVsenhacadastro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText4"
-            android:layout_below="@+id/editText4"
-            android:text="@string/senha" />
-
         <EditText
             android:id="@+id/eTsenhacadastro"
-            android:layout_width="280dp"
+            android:layout_width="315dp"
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/tVsenhacadastro"
             android:layout_below="@+id/tVsenhacadastro"
             android:ems="10"
             android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/eTconfirmesenha"
+            android:layout_width="315dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tVconfirmesenha"
+            android:layout_below="@+id/tVconfirmesenha"
+            android:ems="10"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/tVnomecompleto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"
+            android:layout_toLeftOf="@+id/bTcadastrar"
+            android:text="@string/nome" />
+
+        <TextView
+            android:id="@+id/tVemailcadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eTnomecompleto"
+            android:layout_below="@+id/eTnomecompleto"
+            android:layout_marginTop="11dp"
+            android:text="@string/email" />
+
+        <TextView
+            android:id="@+id/tVcpf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/eTemailcadastro"
+            android:layout_below="@+id/eTemailcadastro"
+            android:layout_marginTop="12dp"
+            android:text="@string/cpf" />
+
+        <Button
+            android:id="@+id/bTlimpar"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/eTconfirmesenha"
+            android:text="@string/limpar"
+            android:textSize="@dimen/FonteBotoes" />
+
+        <Button
+            android:id="@+id/bTvoltar"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@+id/eTconfirmesenha"
+            android:layout_alignParentBottom="true"
+            android:text="@string/voltar"
+            android:textSize="@dimen/FonteBotoes" />
 
         <TextView
             android:id="@+id/tVconfirmesenha"
@@ -120,56 +142,35 @@
             android:layout_height="wrap_content"
             android:layout_alignLeft="@+id/eTsenhacadastro"
             android:layout_below="@+id/eTsenhacadastro"
+            android:layout_marginTop="10dp"
             android:text="@string/confirmesenha" />
 
-        <EditText
-            android:id="@+id/eTconfirmesenha"
-            android:layout_width="280dp"
+        <TextView
+            android:id="@+id/tVsenhacadastro"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVconfirmesenha"
-            android:layout_below="@+id/tVconfirmesenha"
-            android:ems="10"
-            android:inputType="textPassword" />
+            android:layout_alignLeft="@+id/editText4"
+            android:layout_below="@+id/editText4"
+            android:layout_marginTop="10dp"
+            android:text="@string/senha" />
 
         <Button
             android:id="@+id/bTcadastrar"
-            android:layout_width="95dp"
+            android:layout_width="90dp"
             android:layout_height="40dp"
-            android:layout_below="@+id/eTconfirmesenha"
+            android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="14dp"
-            android:text="@string/cadastrar"
-            android:textSize="@dimen/FonteBotoes" />
-
-        <Button
-            android:id="@+id/bTvoltar"
-            android:layout_width="95dp"
-            android:layout_height="40dp"
-            android:layout_alignBaseline="@+id/bTcadastrar"
-            android:layout_alignBottom="@+id/bTcadastrar"
-            android:layout_alignLeft="@+id/eTconfirmesenha"
-            android:text="@string/voltar"
-            android:textSize="@dimen/FonteBotoes" />
-
-        <Button
-            android:id="@+id/bTlimpar"
-            android:layout_width="95dp"
-            android:layout_height="40dp"
-            android:layout_alignBaseline="@+id/bTcadastrar"
-            android:layout_alignBottom="@+id/bTcadastrar"
-            android:layout_toRightOf="@+id/bTcadastrar"
-            android:text="@string/limpar"
+            android:text="@string/salvar"
             android:textSize="@dimen/FonteBotoes" />
 
         <TextView
-            android:id="@+id/tVnomecompleto"
+            android:id="@+id/tVcelular"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_marginLeft="18dp"
-            android:layout_marginTop="15dp"
-            android:text="@string/nome" />
+            android:layout_alignLeft="@+id/eTdatanascimento"
+            android:layout_below="@+id/eTdatanascimento"
+            android:layout_marginTop="11dp"
+            android:text="@string/celular" />
 
     </RelativeLayout>
 

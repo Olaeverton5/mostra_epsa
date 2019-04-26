@@ -28,5 +28,6 @@
     <string name="voltar">VOLTAR</string>
     <string name="limpar">LIMPAR</string>
     <string name="cadastrar">CADASTRAR</string>
+    <string name="salvar">SALVAR</string>
 
 </resources>

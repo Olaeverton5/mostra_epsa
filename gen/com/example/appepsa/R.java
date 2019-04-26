@@ -17,6 +17,7 @@ public final class R {
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+
     
          */
         public static final int activity_horizontal_margin=0x7f040000;
@@ -28,32 +29,32 @@ public final class R {
     public static final class id {
         public static final int action_settings=0x7f08001b;
         public static final int bTcadastrar=0x7f080010;
-        public static final int bTcadastrese=0x7f08001a;
-        public static final int bTentrar=0x7f080019;
-        public static final int bTlimpar=0x7f080012;
-        public static final int bTvoltar=0x7f080011;
+        public static final int bTcadastrese=0x7f080019;
+        public static final int bTentrar=0x7f08001a;
+        public static final int bTlimpar=0x7f080011;
+        public static final int bTvoltar=0x7f080012;
         public static final int eTcelular=0x7f08000b;
-        public static final int eTconfirmesenha=0x7f08000f;
-        public static final int eTcpf=0x7f080006;
+        public static final int eTconfirmesenha=0x7f08000e;
+        public static final int eTcpf=0x7f080005;
         public static final int eTdatanascimento=0x7f080008;
         public static final int eTemail=0x7f080013;
-        public static final int eTemailcadastro=0x7f080004;
+        public static final int eTemailcadastro=0x7f080003;
         public static final int eTnomecompleto=0x7f080001;
         public static final int eTsenha=0x7f080017;
-        public static final int eTsenhacadastro=0x7f08000d;
-        public static final int editText4=0x7f08000a;
+        public static final int eTsenhacadastro=0x7f08000c;
+        public static final int editText4=0x7f080009;
         public static final int scrollView1=0x7f080000;
         public static final int tVbemvindo=0x7f080016;
-        public static final int tVcelular=0x7f080009;
-        public static final int tVconfirmesenha=0x7f08000e;
-        public static final int tVcpf=0x7f080005;
+        public static final int tVcelular=0x7f08000a;
+        public static final int tVconfirmesenha=0x7f08000f;
+        public static final int tVcpf=0x7f080006;
         public static final int tVdatanascimento=0x7f080007;
         public static final int tVemail=0x7f080014;
-        public static final int tVemailcadastro=0x7f080003;
+        public static final int tVemailcadastro=0x7f080004;
         public static final int tVesquecisenha=0x7f080018;
         public static final int tVnomecompleto=0x7f080002;
         public static final int tVsenha=0x7f080015;
-        public static final int tVsenhacadastro=0x7f08000c;
+        public static final int tVsenhacadastro=0x7f08000d;
     }
     public static final class layout {
         public static final int activity_cadastro=0x7f030000;
@@ -90,6 +91,7 @@ public final class R {
         public static final int hello_world=0x7f050002;
         public static final int limpar=0x7f050019;
         public static final int nome=0x7f050013;
+        public static final int salvar=0x7f05001b;
         public static final int senha=0x7f050006;
         public static final int title_activity_cadastro=0x7f050010;
         public static final int title_activity_menu=0x7f050011;
@@ -100,21 +102,25 @@ public final class R {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
         AppBaseTheme from res/values/styles.xml on API 11+ devices.
+
     
  API 11 theme customizations can go here. 
 
         Base application theme for API 14+. This theme completely replaces
         AppBaseTheme from BOTH res/values/styles.xml and
         res/values-v11/styles.xml on API 14+ devices.
+
     
  API 14 theme customizations can go here. 
          */
