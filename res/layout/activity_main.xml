@@ -3,28 +3,28 @@
     android:layout_height="fill_parent" >
 
     <EditText
-        android:id="@+id/eTemail"
+        android:id="@+id/eTinformecpf"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tVemail"
+        android:layout_below="@+id/tVinformecpf"
         android:layout_centerHorizontal="true"
         android:ems="10"
         android:inputType="textEmailAddress" />
 
     <TextView
-        android:id="@+id/tVsenha"
+        android:id="@+id/tVinformeemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eTemail"
-        android:layout_below="@+id/eTemail"
+        android:layout_alignLeft="@+id/eTinformecpf"
+        android:layout_below="@+id/eTinformecpf"
         android:layout_marginTop="30dp"
         android:text="@string/senha" />
 
     <TextView
-        android:id="@+id/tVemail"
+        android:id="@+id/tVinformecpf"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/eTemail"
+        android:layout_alignLeft="@+id/eTinformecpf"
         android:layout_alignParentTop="true"
         android:layout_marginTop="102dp"
         android:text="@string/email" />
@@ -40,11 +40,11 @@
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
-        android:id="@+id/eTsenha"
+        android:id="@+id/eTinformeemail"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/tVsenha"
-        android:layout_below="@+id/tVsenha"
+        android:layout_alignLeft="@+id/tVinformeemail"
+        android:layout_below="@+id/tVinformeemail"
         android:ems="10"
         android:inputType="textPassword" />
 
@@ -52,7 +52,7 @@
         android:id="@+id/tVesquecisenha"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/eTsenha"
+        android:layout_below="@+id/eTinformeemail"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="15dp"
         android:onClick="recuperarsenha"
@@ -62,7 +62,7 @@
         android:id="@+id/bTcadastrese"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/bTentrar"
+        android:layout_below="@+id/bTlimpar2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="16dp"
         android:onClick="cadastro"
@@ -70,7 +70,7 @@
         android:textSize="@dimen/FonteBotoes" />
 
     <Button
-        android:id="@+id/bTentrar"
+        android:id="@+id/bTlimpar2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tVesquecisenha"

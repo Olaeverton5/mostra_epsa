@@ -29,5 +29,10 @@
     <string name="limpar">LIMPAR</string>
     <string name="cadastrar">CADASTRAR</string>
     <string name="salvar">SALVAR</string>
+    <string name="recuperesenha">R</string>
+    <string name="informecpf">INFORME SEU CPF</string>
+    <string name="informeemal">INFORME SEU EMAIL</string>
+    <string name="enviar">ENVIAR</string>
+    <string name="gentileza">POR GENTILEZA,</string>
 
 </resources>
