@@ -21,16 +21,21 @@ public class MainActivity extends Activity {
 		return true;
 	}
 	
+	//FUNÇÃO CHAMAR TELA CADASTRO
 	public void cadastro(View v) {
         Intent it = new Intent(this, CadastroActivity.class);
         startActivity(it);
 	}
 	
+	
+	//FUNÇÃO CHAMAR TELA MENU PRINCIPAL
 	public void menuprincipal(View v) {
         Intent it = new Intent(this, MenuActivity.class);
         startActivity(it);
 	}
 	
+	
+	//FUNÇÃO CHAMAR TELA RECUPERAR SENHA
 	public void recuperarsenha(View v) {
         Intent it = new Intent(this, RecuperarSenhaMainActivity.class);
         startActivity(it);

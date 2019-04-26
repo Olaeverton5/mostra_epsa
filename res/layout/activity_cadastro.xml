@@ -125,6 +125,7 @@
             android:layout_alignParentBottom="true"
             android:layout_alignRight="@+id/eTconfirmesenha"
             android:text="@string/limpar"
+            android:onClick="limpar"
             android:textSize="@dimen/FonteBotoes" />
 
         <Button
@@ -134,6 +135,7 @@
             android:layout_alignLeft="@+id/eTconfirmesenha"
             android:layout_alignParentBottom="true"
             android:text="@string/voltar"
+            android:onClick="voltar"
             android:textSize="@dimen/FonteBotoes" />
 
         <TextView
