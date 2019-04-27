@@ -22,11 +22,17 @@ public class RecuperarSenhaMainActivity extends Activity {
 		return true;
 	}
 
-	// FUNÇÃO DO BOTÃO VOLTAR DA TELA DE LOGIN
+	// FUNÇÃO DO BOTÃO VOLTAR DA TELA RECUPERAR SENHA
 	public void voltar(View v) {
 		Intent it = new Intent(this, MainActivity.class);
 		startActivity(it);
 	}
+	
+	// FUNÇÃO DO BOTÃO ENVIAR DA TELA RECUPERAR SENHA
+		public void enviar(View v) {
+			Intent it = new Intent(this, MainActivity.class);
+			startActivity(it);
+		}
 
 	// FUNÇÃO DO BOTÃO LIMPAR DA RECUPERAR SENHA
 	public void limpar(View v) {

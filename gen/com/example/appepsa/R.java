@@ -27,51 +27,57 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f080020;
-        public static final int bTcadastrar=0x7f080010;
-        public static final int bTcadastrese=0x7f080019;
-        public static final int bTenviar=0x7f08001f;
-        public static final int bTlimpar=0x7f080012;
-        public static final int bTlimpar2=0x7f08001a;
-        public static final int bTvoltar=0x7f080011;
-        public static final int eTcelular=0x7f08000b;
-        public static final int eTconfirmesenha=0x7f08000e;
+        public static final int action_settings=0x7f080024;
+        public static final int bTcadastrese=0x7f080017;
+        public static final int bTenviar=0x7f080022;
+        public static final int bTfaleconosco=0x7f08001c;
+        public static final int bTforum=0x7f08001b;
+        public static final int bTlimpar=0x7f080010;
+        public static final int bTlimpar2=0x7f080018;
+        public static final int bTmeuperfil=0x7f080019;
+        public static final int bTmural=0x7f08001a;
+        public static final int bTsair=0x7f08001d;
+        public static final int bTsalvar=0x7f08000f;
+        public static final int bTvoltar=0x7f08000e;
+        public static final int eTcelular=0x7f080009;
+        public static final int eTconfirmesenha=0x7f08000d;
         public static final int eTcpf=0x7f080005;
-        public static final int eTdatanascimento=0x7f080008;
-        public static final int eTemail=0x7f08001c;
+        public static final int eTdatanascimento=0x7f080007;
+        public static final int eTemail=0x7f08001f;
         public static final int eTemailcadastro=0x7f080003;
-        public static final int eTinformecpf=0x7f080013;
-        public static final int eTinformeemail=0x7f080017;
-        public static final int eTinformeseucpf=0x7f08001b;
+        public static final int eTinformecpf=0x7f080011;
+        public static final int eTinformeemail=0x7f080015;
+        public static final int eTinformeseucpf=0x7f08001e;
         public static final int eTnomecompleto=0x7f080001;
-        public static final int eTsenhacadastro=0x7f08000c;
-        public static final int editText4=0x7f080009;
-        public static final int linearLayout1=0x7f08001e;
-        public static final int scrollView1=0x7f080000;
-        public static final int tVbemvindo=0x7f080016;
-        public static final int tVcelular=0x7f08000a;
-        public static final int tVconfirmesenha=0x7f08000f;
-        public static final int tVcpf=0x7f080006;
-        public static final int tVdatanascimento=0x7f080007;
-        public static final int tVemailcadastro=0x7f080004;
-        public static final int tVesquecisenha=0x7f080018;
-        public static final int tVgentileza=0x7f08001d;
-        public static final int tVinformecpf=0x7f080014;
-        public static final int tVinformeemail=0x7f080015;
-        public static final int tVnomecompleto=0x7f080002;
-        public static final int tVsenhacadastro=0x7f08000d;
+        public static final int eTsenhacadastro=0x7f08000b;
+        public static final int linearLayout1=0x7f080021;
+        public static final int tVbemvindo=0x7f080014;
+        public static final int tVcelular=0x7f080008;
+        public static final int tVconfirmesenha=0x7f08000c;
+        public static final int tVcpf=0x7f080004;
+        public static final int tVdatanascimento=0x7f080006;
+        public static final int tVemailcadastro=0x7f080002;
+        public static final int tVesquecisenha=0x7f080016;
+        public static final int tVgentileza=0x7f080020;
+        public static final int tVinformecpf=0x7f080012;
+        public static final int tVinformeemail=0x7f080013;
+        public static final int tVnomecompleto=0x7f080000;
+        public static final int tVsenhacadastro=0x7f08000a;
+        public static final int textView1=0x7f080023;
     }
     public static final class layout {
         public static final int activity_cadastro=0x7f030000;
         public static final int activity_main=0x7f030001;
-        public static final int activity_menu=0x7f030002;
-        public static final int recuperar_senha_main=0x7f030003;
+        public static final int menu_aluno_e_funcionario=0x7f030002;
+        public static final int menu_usuario_comum=0x7f030003;
+        public static final int recuperar_senha_main=0x7f030004;
     }
     public static final class menu {
         public static final int cadastro=0x7f070000;
         public static final int main=0x7f070001;
         public static final int menu=0x7f070002;
-        public static final int recuperar_senha_main=0x7f070003;
+        public static final int menu_usuario_comum=0x7f070003;
+        public static final int recuperar_senha_main=0x7f070004;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -94,17 +100,24 @@ public final class R {
         public static final int entrar=0x7f050004;
         public static final int enviar=0x7f05001f;
         public static final int esqueci=0x7f050005;
+        public static final int faleconosco=0x7f050025;
+        public static final int forum=0x7f050024;
         public static final int gentileza=0x7f050020;
         public static final int hello_world=0x7f050002;
         public static final int informecpf=0x7f05001d;
         public static final int informeemal=0x7f05001e;
         public static final int limpar=0x7f050019;
+        public static final int meuperfil=0x7f050022;
+        public static final int mural=0x7f050023;
         public static final int nome=0x7f050013;
         public static final int recuperesenha=0x7f05001c;
+        public static final int sair=0x7f050026;
         public static final int salvar=0x7f05001b;
         public static final int senha=0x7f050006;
+        public static final int textosenha=0x7f050021;
         public static final int title_activity_cadastro=0x7f050010;
         public static final int title_activity_menu=0x7f050011;
+        public static final int title_activity_menu_usuario_comum=0x7f050027;
         public static final int title_activity_recuperar_senha_main=0x7f050012;
         public static final int voltar=0x7f050018;
     }

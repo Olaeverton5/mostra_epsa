@@ -34,5 +34,12 @@
     <string name="informeemal">INFORME SEU EMAIL</string>
     <string name="enviar">ENVIAR</string>
     <string name="gentileza">POR GENTILEZA,</string>
+    <string name="textosenha">Faça login com a senha provisória recebida em seu e-mail e altere a mesma em seu perfil de usuário.</string>
+    <string name="meuperfil">MEU PERFIL</string>
+    <string name="mural">MURAL</string>
+    <string name="forum">FORUM CONHECIMENTO</string>
+    <string name="faleconosco">FALE CONOSCO</string>
+    <string name="sair">SAIR</string>
+    <string name="title_activity_menu_usuario_comum">Menu Principal</string>
 
 </resources>

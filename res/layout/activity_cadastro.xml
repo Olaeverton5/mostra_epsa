@@ -1,175 +1,138 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/scrollView1"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent" >
+    android:layout_height="fill_parent"
+    android:layout_marginEnd="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
 
-    <RelativeLayout
+    <TextView
+        android:id="@+id/tVnomecompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/eTnomecompleto"
         android:layout_width="match_parent"
-        android:layout_height="515dp" >
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
 
-        <EditText
-            android:id="@+id/eTnomecompleto"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVnomecompleto"
-            android:layout_below="@+id/tVnomecompleto"
-            android:ems="10"
-            android:inputType="textPersonName" >
+        <requestFocus />
+    </EditText>
 
-            <requestFocus />
-        </EditText>
+    <TextView
+        android:id="@+id/tVemailcadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
 
-        <EditText
-            android:id="@+id/eTemailcadastro"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVemailcadastro"
-            android:layout_below="@+id/tVemailcadastro"
-            android:ems="10"
-            android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/eTemailcadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
 
-        <EditText
-            android:id="@+id/eTcpf"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVcpf"
-            android:layout_below="@+id/tVcpf"
-            android:ems="10"
-            android:inputType="number" />
+    <TextView
+        android:id="@+id/tVcpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpf" />
 
-        <TextView
-            android:id="@+id/tVdatanascimento"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTcpf"
-            android:layout_below="@+id/eTcpf"
-            android:text="@string/datanascimento" />
+    <EditText
+        android:id="@+id/eTcpf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
 
-        <EditText
-            android:id="@+id/eTdatanascimento"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVdatanascimento"
-            android:layout_below="@+id/tVdatanascimento"
-            android:ems="10"
-            android:inputType="date" />
+    <TextView
+        android:id="@+id/tVdatanascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datanascimento" />
 
-        <EditText
-            android:id="@+id/editText4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVcelular"
-            android:layout_below="@+id/tVcelular"
-            android:ems="10"
-            android:inputType="number" />
+    <EditText
+        android:id="@+id/eTdatanascimento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
 
-        <EditText
-            android:id="@+id/eTcelular"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignBaseline="@+id/editText4"
-            android:layout_alignBottom="@+id/editText4"
-            android:layout_alignLeft="@+id/editText4"
-            android:ems="10"
-            android:inputType="phone" />
+    <TextView
+        android:id="@+id/tVcelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/celular" />
 
-        <EditText
-            android:id="@+id/eTsenhacadastro"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVsenhacadastro"
-            android:layout_below="@+id/tVsenhacadastro"
-            android:ems="10"
-            android:inputType="textPassword" />
+    <EditText
+        android:id="@+id/eTcelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
 
-        <EditText
-            android:id="@+id/eTconfirmesenha"
-            android:layout_width="280dp"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/tVconfirmesenha"
-            android:layout_below="@+id/tVconfirmesenha"
-            android:ems="10"
-            android:inputType="textPassword" />
+    <TextView
+        android:id="@+id/tVsenhacadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha" />
 
-        <TextView
-            android:id="@+id/tVnomecompleto"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="32dp"
-            android:layout_toLeftOf="@+id/bTcadastrar"
-            android:text="@string/nome" />
-        
+    <EditText
+        android:id="@+id/eTsenhacadastro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tVconfirmesenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmesenha" />
+
+    <EditText
+        android:id="@+id/eTconfirmesenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginLeft="10dp" >
 
         <Button
             android:id="@+id/bTvoltar"
-            android:layout_width="95dp"
-            android:layout_height="40dp"
-            android:layout_alignLeft="@+id/eTconfirmesenha"
-            android:layout_alignParentBottom="true"
-            android:onClick="voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
             android:text="@string/voltar"
+            android:onClick="voltar"
             android:textSize="@dimen/FonteBotoes" />
 
         <Button
-            android:id="@+id/bTcadastrar"
-            android:layout_width="95dp"
-            android:layout_height="40dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
+            android:id="@+id/bTsalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
             android:text="@string/salvar"
             android:textSize="@dimen/FonteBotoes" />
 
         <Button
             android:id="@+id/bTlimpar"
-            android:layout_width="95dp"
-            android:layout_height="40dp"
-            android:layout_alignParentBottom="true"
-            android:layout_alignRight="@+id/eTconfirmesenha"
-            android:onClick="limpar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.43"
             android:text="@string/limpar"
+            android:onClick="limpar"
             android:textSize="@dimen/FonteBotoes" />
 
-        <TextView
-            android:id="@+id/tVemailcadastro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTnomecompleto"
-            android:layout_below="@+id/eTnomecompleto"
-            android:text="@string/email" />
+    </LinearLayout>
 
-        <TextView
-            android:id="@+id/tVcpf"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTemailcadastro"
-            android:layout_below="@+id/eTemailcadastro"
-            android:text="@string/cpf" />
-
-        <TextView
-            android:id="@+id/tVcelular"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTdatanascimento"
-            android:layout_below="@+id/eTdatanascimento"
-            android:text="@string/celular" />
-
-        <TextView
-            android:id="@+id/tVsenhacadastro"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/editText4"
-            android:layout_below="@+id/editText4"
-            android:text="@string/senha" />
-
-        <TextView
-            android:id="@+id/tVconfirmesenha"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignLeft="@+id/eTsenhacadastro"
-            android:layout_below="@+id/eTsenhacadastro"
-            android:text="@string/confirmesenha" />
-
-    </RelativeLayout>
-
-</ScrollView>
+</LinearLayout>

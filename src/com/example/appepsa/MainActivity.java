@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 	
 	//FUNÇÃO CHAMAR TELA MENU PRINCIPAL
 	public void menuprincipal(View v) {
-        Intent it = new Intent(this, MenuActivity.class);
+        Intent it = new Intent(this, MenuAlunoeFuncionario.class);
         startActivity(it);
 	}
 	

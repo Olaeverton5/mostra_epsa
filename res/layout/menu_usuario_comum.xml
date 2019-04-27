@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginEnd="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp" >
+
+    <Button
+        android:id="@+id/bTforum"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="160dp"
+        android:text="@string/forum" />
+
+    <Button
+        android:id="@+id/bTsair"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_below="@+id/bTfaleconosco"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:text="@string/sair"
+        android:textSize="@dimen/FonteBotoes" />
+
+    <Button
+        android:id="@+id/bTmeuperfil"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bTforum"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="79dp"
+        android:text="@string/meuperfil" />
+
+    <Button
+        android:id="@+id/bTfaleconosco"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bTforum"
+        android:layout_below="@+id/bTforum"
+        android:layout_marginTop="31dp"
+        android:text="@string/faleconosco" />
+
+</RelativeLayout>

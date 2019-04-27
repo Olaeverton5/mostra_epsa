@@ -27,12 +27,16 @@
             android:label="@string/title_activity_cadastro" >
         </activity>
         <activity
-            android:name="com.example.appepsa.MenuActivity"
+            android:name="com.example.appepsa.MenuAlunoeFuncionario"
             android:label="@string/title_activity_menu" >
         </activity>
         <activity
             android:name="com.example.appepsa.RecuperarSenhaMainActivity"
             android:label="@string/title_activity_recuperar_senha_main" >
+        </activity>
+        <activity
+            android:name="com.example.appepsa.MenuUsuarioComum"
+            android:label="@string/title_activity_menu_usuario_comum" >
         </activity>
     </application>
 
