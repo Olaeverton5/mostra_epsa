@@ -27,10 +27,10 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int action_settings=0x7f08001f;
+        public static final int action_settings=0x7f080020;
         public static final int bTcadastrar=0x7f080010;
         public static final int bTcadastrese=0x7f080019;
-        public static final int bTenviar=0x7f08001e;
+        public static final int bTenviar=0x7f08001f;
         public static final int bTlimpar=0x7f080012;
         public static final int bTlimpar2=0x7f08001a;
         public static final int bTvoltar=0x7f080011;
@@ -42,10 +42,11 @@ public final class R {
         public static final int eTemailcadastro=0x7f080003;
         public static final int eTinformecpf=0x7f080013;
         public static final int eTinformeemail=0x7f080017;
+        public static final int eTinformeseucpf=0x7f08001b;
         public static final int eTnomecompleto=0x7f080001;
         public static final int eTsenhacadastro=0x7f08000c;
         public static final int editText4=0x7f080009;
-        public static final int editinformecpf=0x7f08001b;
+        public static final int linearLayout1=0x7f08001e;
         public static final int scrollView1=0x7f080000;
         public static final int tVbemvindo=0x7f080016;
         public static final int tVcelular=0x7f08000a;
