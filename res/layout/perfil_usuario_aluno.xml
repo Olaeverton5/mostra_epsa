@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginEnd="150dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginTop="40dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tVnomeusuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/eTnomecompletoperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/tVemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email" />
+
+    <EditText
+        android:id="@+id/eTemailperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tVcpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cpf" />
+
+    <EditText
+        android:id="@+id/eTcpfperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/tVdatanascimento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/datanascimento" />
+
+    <EditText
+        android:id="@+id/eTdatanascimentoperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tVcelular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/celular" />
+
+    <EditText
+        android:id="@+id/eTcelularperfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/bTpermissoes"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:text="@string/permissoes"
+            android:textSize="@dimen/FonteBotoes" />
+
+        <Button
+            android:id="@+id/bTalterarsenha"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:text="@string/alterarsenha"
+            android:textSize="@dimen/FonteBotoes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="2dp" >
+
+        <Button
+            android:id="@+id/bTlimpar"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:text="@string/limpar"
+            android:onClick="limpar"
+            android:textSize="@dimen/FonteBotoes" />
+
+        <Button
+            android:id="@+id/bTsalvar"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:text="@string/salvar"
+            android:textSize="@dimen/FonteBotoes" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="135dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="30dp" >
+
+        <Button
+            android:id="@+id/bTmenuprincipal"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:onClick="menuprincipal"
+            android:text="@string/menuprincipal"
+            android:textSize="@dimen/FonteBotoes" />
+    </LinearLayout>
+
+</LinearLayout>
