@@ -38,6 +38,10 @@
             android:name="com.example.appepsa.MenuUsuarioComum"
             android:label="@string/title_activity_menu_usuario_comum" >
         </activity>
+        <activity
+            android:name="com.example.appepsa.PerfilUsuarioAluno"
+            android:label="@string/title_activity_perfil_usuario_aluno" >
+        </activity>
     </application>
 
 </manifest>
