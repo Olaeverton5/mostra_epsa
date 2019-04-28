@@ -2,7 +2,9 @@ package com.example.appepsa;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
+import android.view.View;
 
 public class MenuAlunoeFuncionario extends Activity {
 
@@ -18,5 +20,11 @@ public class MenuAlunoeFuncionario extends Activity {
 		getMenuInflater().inflate(R.menu.menu, menu);
 		return true;
 	}
+	
+	//FUNÇÃO DO BOTÃO MEU PERFIL CHAMANDO A TELA DE PERFIL DE USUÁRIO ALUNO
+			public void perfilusuarioaluno(View v) {
+		        Intent it = new Intent(this, PerfilUsuarioAluno.class);
+		        startActivity(it);
+			}
 
 }

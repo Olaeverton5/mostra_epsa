@@ -41,5 +41,9 @@
     <string name="faleconosco">FALE CONOSCO</string>
     <string name="sair">SAIR</string>
     <string name="title_activity_menu_usuario_comum">Menu Principal</string>
+    <string name="title_activity_perfil_usuario_aluno">Perfil de Usuário</string>
+    <string name="permissoes">PERMISSÕES</string>
+    <string name="alterarsenha">ALTERAR SENHA</string>
+    <string name="menuprincipal">MENU PRINCIPAL</string>
 
 </resources>

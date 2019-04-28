@@ -29,7 +29,7 @@ public class PerfilUsuarioAluno extends Activity {
 	}
 
 	// FUNÇÃO DO BOTÃO LIMPAR DA PERFIL USUÁRIO ALUNO
-	public void limpar(View v) {
+	public void limparperfilusuario(View v) {
 		EditText nome = (EditText) findViewById(R.id.eTnomecompletoperfil);
 		EditText email = (EditText) findViewById(R.id.eTemailperfil);
 		EditText cpf = (EditText) findViewById(R.id.eTcpfperfil);
