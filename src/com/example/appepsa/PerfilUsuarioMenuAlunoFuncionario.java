@@ -6,12 +6,12 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 
-public class MenuAlunoeFuncionario extends Activity {
+public class PerfilUsuarioMenuAlunoFuncionario extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.menu_aluno_e_funcionario);
+		setContentView(R.layout.perfil_usuario_menu_aluno_funcionario);
 	}
 
 	@Override

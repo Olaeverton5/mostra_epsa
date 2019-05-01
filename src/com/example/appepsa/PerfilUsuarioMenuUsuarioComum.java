@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
-public class MenuUsuarioComum extends Activity {
+public class PerfilUsuarioMenuUsuarioComum extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.menu_usuario_comum);
+		setContentView(R.layout.perfil_usuario_menu_usuario_comum);
 	}
 
 	@Override

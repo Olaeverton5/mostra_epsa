@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <EditText
+        android:id="@+id/eTinformecpf"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVinformecpf"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/tVinformeemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eTinformecpf"
+        android:layout_below="@+id/eTinformecpf"
+        android:layout_marginTop="30dp"
+        android:text="@string/senha" />
+
+    <TextView
+        android:id="@+id/tVinformecpf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/eTinformecpf"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:text="@string/email" />
+
+    <TextView
+        android:id="@+id/tVbemvindo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:text="@string/bemvindo"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/eTinformeemail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVinformeemail"
+        android:layout_below="@+id/tVinformeemail"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/tVesquecisenha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eTinformeemail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:onClick="recuperarsenha"
+        android:text="@string/esqueci" />
+
+    <Button
+        android:id="@+id/bTcadastrese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bTlimpar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="cadastro"
+        android:text="@string/cadastre"
+        android:textSize="@dimen/FonteBotoes" />
+
+    <Button
+        android:id="@+id/bTlimpar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tVesquecisenha"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:onClick="menuprincipal"
+        android:text="@string/entrar"
+        android:textSize="@dimen/FonteBotoes" />
+
+</RelativeLayout>

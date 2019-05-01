@@ -24,7 +24,7 @@ public class PerfilUsuarioAluno extends Activity {
 
 	// FUNÇÃO DO BOTÃO MENU PRINCIPAL DA TELA DE PERFIL DE USUÁRIO ALUNO
 	public void menuprincipal(View v) {
-		Intent it = new Intent(this, MenuAlunoeFuncionario.class);
+		Intent it = new Intent(this, PerfilUsuarioMenuAlunoFuncionario.class);
 		startActivity(it);
 	}
 

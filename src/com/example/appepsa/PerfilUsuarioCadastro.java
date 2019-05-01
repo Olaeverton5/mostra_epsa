@@ -7,12 +7,12 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 
-public class CadastroActivity extends Activity {
+public class PerfilUsuarioCadastro extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_cadastro);
+		setContentView(R.layout.perfil_usuario_cadastro);
 	}
 
 	@Override
@@ -24,7 +24,7 @@ public class CadastroActivity extends Activity {
 	
 	//FUNÇÃO DO BOTÃO VOLTAR DA TELA DE CADASTRO
 	public void voltar(View v) {
-        Intent it = new Intent(this, MainActivity.class);
+        Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
         startActivity(it);
 	}
 	

@@ -6,7 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
 
-    tools:context=".RecuperarSenhaMainActivity" >
+    tools:context=".PerfilUsuarioRecuperarSenha" >
 
     <TextView
         android:id="@+id/tVinformecpf"

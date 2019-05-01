@@ -7,12 +7,12 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 
-public class RecuperarSenhaMainActivity extends Activity {
+public class PerfilUsuarioRecuperarSenha extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.recuperar_senha_main);
+		setContentView(R.layout.perfil_usuario_recuperar_senha);
 	}
 
 	@Override
@@ -24,13 +24,13 @@ public class RecuperarSenhaMainActivity extends Activity {
 
 	// FUNÇÃO DO BOTÃO VOLTAR DA TELA RECUPERAR SENHA
 	public void voltar(View v) {
-		Intent it = new Intent(this, MainActivity.class);
+		Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
 		startActivity(it);
 	}
 	
 	// FUNÇÃO DO BOTÃO ENVIAR DA TELA RECUPERAR SENHA
 		public void enviar(View v) {
-			Intent it = new Intent(this, MainActivity.class);
+			Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
 			startActivity(it);
 		}
 
