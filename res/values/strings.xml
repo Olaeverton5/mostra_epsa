@@ -45,5 +45,19 @@
     <string name="permissoes">PERMISSÕES</string>
     <string name="alterarsenha">ALTERAR SENHA</string>
     <string name="menuprincipal">MENU PRINCIPAL</string>
+    <string name="title_activity_dicas">DicasActivity</string>
+    <string name="dicas">Dicas</string>
+    <string name="dicalivros">Livros</string>
+    <string name="pessoasdicas">Pessoas</string>
+    <string name="sitedicas">Sites</string>
+    <string name="livrodica1">Livro um</string>
+    <string name="livrodica2">Livro dois</string>
+    <string name="sitedica1">Site um</string>
+    <string name="sitedica2">Site Dois</string>
+    <string name="pessoadica">Pessoa um</string>
+    <string name="pessoadica2">Pessoa dois</string>
+    <string name="voltardicas">Voltar</string>
+    <string name="title_activity_livros">LivrosActivity</string>
+    <string name="livros">Página dos livros</string>
 
 </resources>

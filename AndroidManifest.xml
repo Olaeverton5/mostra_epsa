@@ -42,6 +42,14 @@
             android:name="com.example.appepsa.PerfilUsuarioAluno"
             android:label="@string/title_activity_perfil_usuario_aluno" >
         </activity>
+        <activity
+            android:name="com.example.appepsa.DicasActivity"
+            android:label="@string/title_activity_dicas" >
+        </activity>
+        <activity
+            android:name="com.example.appepsa.LivrosActivity"
+            android:label="@string/title_activity_livros" >
+        </activity>
     </application>
 
 </manifest>

@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".DicasActivity" >
+
+    <TextView
+        android:id="@+id/tVDicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="@string/dicas"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tVLivrosDicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVSitesDicas"
+        android:layout_below="@+id/tVDicas"
+        android:layout_marginTop="20dp"
+        android:onClick="livros"
+        android:text="@string/dicalivros"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/sVLivros"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/tVLivrosDicas"
+        android:layout_below="@+id/tVLivrosDicas"
+        android:fillViewport="true" >
+         
+        
+
+        <LinearLayout
+            android:id="@+id/sVLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            
+
+            <TextView
+                android:id="@+id/tVLivroDica1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/livrodica1" />
+
+            <TextView
+                android:id="@+id/tVLivroDica2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/livrodica2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tVSitesDicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tVPessoasDicas"
+        android:layout_below="@+id/sVLivros"
+        android:text="@string/sitedicas"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/sVSites"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/tVSitesDicas"
+        android:layout_below="@+id/tVSitesDicas" >
+
+        <LinearLayout
+            android:id="@+id/tVSites"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tVLivros"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sitedica1" />
+
+            <TextView
+                android:id="@+id/tVSiteDois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sitedica2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tVPessoasDicas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sVSites"
+        android:layout_marginRight="24dp"
+        android:layout_toLeftOf="@+id/tVDicas"
+        android:text="@string/pessoasdicas"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ScrollView
+        android:id="@+id/sVPessoas"
+        android:layout_width="270dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/tVPessoasDicas"
+        android:layout_below="@+id/tVPessoasDicas" >
+
+        <LinearLayout
+            android:id="@+id/tVPessoas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tVPessoaUm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pessoadica" />
+
+            <TextView
+                android:id="@+id/tVPessoaDois"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pessoadica2" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/bTVoltar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sVPessoas"
+        android:layout_below="@+id/sVPessoas"
+        android:text="@string/voltardicas" />
+
+</RelativeLayout>
