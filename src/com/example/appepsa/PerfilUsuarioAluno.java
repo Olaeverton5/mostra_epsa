@@ -27,6 +27,12 @@ public class PerfilUsuarioAluno extends Activity {
 		Intent it = new Intent(this, PerfilUsuarioMenuAlunoFuncionario.class);
 		startActivity(it);
 	}
+	
+	// FUNÇÃO DO BOTÃO ALTERAR SENHA CHAMANDO A TELA
+		public void alterarsenha(View v) {
+			Intent it = new Intent(this, PerfilUsuarioAlterarSenha.class);
+			startActivity(it);
+		}
 
 	// FUNÇÃO DO BOTÃO LIMPAR DA PERFIL USUÁRIO ALUNO
 	public void limparperfilusuario(View v) {

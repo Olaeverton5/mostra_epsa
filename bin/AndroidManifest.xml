@@ -50,6 +50,10 @@
             android:name="com.example.appepsa.LivrosActivity"
             android:label="@string/title_activity_livros" >
         </activity>
+        <activity
+            android:name="com.example.appepsa.PerfilUsuarioAlterarSenha"
+            android:label="@string/title_activity_perfil_usuario_alterar_senha" >
+        </activity>
     </application>
 
 </manifest>

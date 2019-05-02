@@ -59,5 +59,9 @@
     <string name="voltardicas">Voltar</string>
     <string name="title_activity_livros">LivrosActivity</string>
     <string name="livros">Página dos livros</string>
+    <string name="title_activity_perfil_usuario_alterar_senha">Alterar Senha</string>
+    <string name="senhaatual">SENHA ATUAL</string>
+    <string name="novasenha">NOVA SENHA</string>
+    <string name="confirmenovasenha">CONFIRME NOVA SENHA</string>
 
 </resources>

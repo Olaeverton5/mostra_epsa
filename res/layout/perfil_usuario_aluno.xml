@@ -94,6 +94,7 @@
             android:layout_width="135dp"
             android:layout_height="40dp"
             android:text="@string/alterarsenha"
+            android:onClick="alterarsenha"
             android:textSize="@dimen/FonteBotoes" />
     </LinearLayout>
 
