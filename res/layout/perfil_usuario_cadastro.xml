@@ -24,13 +24,26 @@
     </EditText>
 
     <TextView
-        android:id="@+id/tVemailcadastro"
+        android:id="@+id/tVemail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/email" />
 
     <EditText
-        android:id="@+id/eTemailcadastro"
+        android:id="@+id/eTemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    
+    <TextView
+        android:id="@+id/tVconfirmeemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmeemail" />
+
+    <EditText
+        android:id="@+id/eTconfirmeemail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"

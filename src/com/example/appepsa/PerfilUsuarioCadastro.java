@@ -31,7 +31,8 @@ public class PerfilUsuarioCadastro extends Activity {
 	//FUNÇÃO DO BOTÃO LIMPAR DA TELA DE CADASTRO
 	public void limpar(View v) {
 		EditText nome = (EditText) findViewById(R.id.eTnomecompleto);
-		EditText email = (EditText) findViewById(R.id.eTemailcadastro);
+		EditText email = (EditText) findViewById(R.id.eTemail);
+		EditText confirmeemail = (EditText) findViewById(R.id.eTconfirmeemail);
 		EditText cpf = (EditText) findViewById(R.id.eTcpf);
 		EditText datanasc = (EditText) findViewById(R.id.eTdatanascimento);
 		EditText celular = (EditText) findViewById(R.id.eTcelular);
@@ -40,11 +41,13 @@ public class PerfilUsuarioCadastro extends Activity {
 
 		nome.setText("");
 		email.setText("");
+		confirmeemail.setText("");
 		cpf.setText("");
 		datanasc.setText("");
 		celular.setText("");
 		senha.setText("");
 		confirmesenha.setText("");
+		
 		nome.requestFocus();
 	}
 

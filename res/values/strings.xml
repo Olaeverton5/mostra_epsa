@@ -63,5 +63,6 @@
     <string name="senhaatual">SENHA ATUAL</string>
     <string name="novasenha">NOVA SENHA</string>
     <string name="confirmenovasenha">CONFIRME NOVA SENHA</string>
+    <string name="confirmeemail">CONFIRME EMAIL</string>
 
 </resources>
