@@ -27,22 +27,19 @@ public class PerfilUsuarioRecuperarSenha extends Activity {
 		Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
 		startActivity(it);
 	}
-	
+
 	// FUNÇÃO DO BOTÃO ENVIAR DA TELA RECUPERAR SENHA
-		public void enviar(View v) {
-			Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
-			startActivity(it);
-		}
+	public void enviar(View v) {
+		Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
+		startActivity(it);
+	}
 
 	// FUNÇÃO DO BOTÃO LIMPAR DA RECUPERAR SENHA
 	public void limpar(View v) {
-		EditText cpf = (EditText) findViewById(R.id.eTinformeseucpf);
-		EditText email = (EditText) findViewById(R.id.eTemail);
 
-		cpf.setText("");
+		EditText email = (EditText) findViewById(R.id.eTemailinforme);
 		email.setText("");
-
-		cpf.requestFocus();
+		email.requestFocus();
 	}
 
 }

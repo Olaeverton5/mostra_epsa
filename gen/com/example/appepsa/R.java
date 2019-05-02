@@ -32,7 +32,7 @@ public final class R {
         public static final int bTVoltar=0x7f080011;
         public static final int bTalterarsenha=0x7f08002f;
         public static final int bTcadastrese=0x7f080018;
-        public static final int bTenviar=0x7f080045;
+        public static final int bTenviar=0x7f080044;
         public static final int bTfaleconosco=0x7f080040;
         public static final int bTforum=0x7f08003f;
         public static final int bTlimpar=0x7f080022;
@@ -54,16 +54,15 @@ public final class R {
         public static final int eTdatanascimento=0x7f080037;
         public static final int eTdatanascimentoperfil=0x7f08002b;
         public static final int eTemail=0x7f080033;
+        public static final int eTemailinforme=0x7f080043;
         public static final int eTemailperfil=0x7f080027;
-        public static final int eTinformecpf=0x7f080012;
-        public static final int eTinformeemail=0x7f080016;
-        public static final int eTinformeseucpf=0x7f080042;
+        public static final int eTinformeemaillogin=0x7f080012;
+        public static final int eTinformesenha=0x7f080016;
         public static final int eTnomecompleto=0x7f080032;
         public static final int eTnomecompletoperfil=0x7f080025;
         public static final int eTnovasenha=0x7f08001e;
         public static final int eTsenhaatual=0x7f08001c;
         public static final int eTsenhacadastro=0x7f08003a;
-        public static final int linearLayout1=0x7f080044;
         public static final int sVLayout=0x7f080005;
         public static final int sVLivros=0x7f080004;
         public static final int sVPessoas=0x7f08000d;
@@ -89,15 +88,16 @@ public final class R {
         public static final int tVcpf=0x7f080028;
         public static final int tVdatanascimento=0x7f08002a;
         public static final int tVemail=0x7f080026;
+        public static final int tVemaillogin=0x7f080013;
         public static final int tVesquecisenha=0x7f080017;
-        public static final int tVgentileza=0x7f080043;
-        public static final int tVinformecpf=0x7f080013;
-        public static final int tVinformeemail=0x7f080014;
+        public static final int tVgentileza=0x7f080042;
+        public static final int tVinformesenha=0x7f080014;
         public static final int tVnomecompleto=0x7f080031;
         public static final int tVnomeusuario=0x7f080024;
         public static final int tVnovasenha=0x7f08001d;
         public static final int tVsenhaatual=0x7f08001b;
         public static final int tVsenhacadastro=0x7f080039;
+        public static final int textView1=0x7f080045;
     }
     public static final class layout {
         public static final int activity_dicas=0x7f030000;
