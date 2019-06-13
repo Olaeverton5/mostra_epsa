@@ -37,6 +37,7 @@
         android:layout_below="@+id/bTforum"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
+        android:onClick="faleconosco"
         android:text="@string/faleconosco" />
 
     <Button

@@ -64,5 +64,12 @@
     <string name="novasenha">NOVA SENHA</string>
     <string name="confirmenovasenha">CONFIRME NOVA SENHA</string>
     <string name="confirmeemail">CONFIRME EMAIL</string>
+    <string name="title_activity_fale_conosco">FaleConosco</string>
+    <string name="telefone">(31) 3073-9600</string>
+    <string name="sugestao">Sugestão</string>
+    <string name="feedback">Feedback</string>
+    <string name="reclamacao">Reclamação</string>
+    <string name="title_activity_enviado_com_sucesso">EnviadoComSucesso</string>
+    <string name="enviadocomsucesso">Enviado com sucesso</string>
 
 </resources>

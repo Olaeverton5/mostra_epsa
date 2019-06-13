@@ -54,6 +54,14 @@
             android:name="com.example.appepsa.PerfilUsuarioAlterarSenha"
             android:label="@string/title_activity_perfil_usuario_alterar_senha" >
         </activity>
+        <activity
+            android:name="com.example.appepsa.FaleConosco"
+            android:label="@string/title_activity_fale_conosco" >
+        </activity>
+        <activity
+            android:name="com.example.appepsa.EnviadoComSucesso"
+            android:label="@string/title_activity_enviado_com_sucesso" >
+        </activity>
     </application>
 
 </manifest>
