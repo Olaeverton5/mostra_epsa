@@ -165,6 +165,8 @@ public final class R {
         public static final int faleconosco=0x7f050025;
         public static final int feedback=0x7f050042;
         public static final int forum=0x7f050024;
+        public static final int forum_a=0x7f050048;
+        public static final int forum_b=0x7f050049;
         public static final int gentileza=0x7f050020;
         public static final int hello_world=0x7f050002;
         public static final int informecpf=0x7f05001d;
@@ -176,6 +178,8 @@ public final class R {
         public static final int menuprincipal=0x7f05002b;
         public static final int meuperfil=0x7f050022;
         public static final int mural=0x7f050023;
+        public static final int mural_legal=0x7f050047;
+        public static final int murallegal=0x7f050046;
         public static final int nome=0x7f050013;
         public static final int novasenha=0x7f05003c;
         public static final int permissoes=0x7f050029;

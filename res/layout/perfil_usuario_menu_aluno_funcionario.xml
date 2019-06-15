@@ -19,7 +19,7 @@
         android:layout_below="@+id/bTmeuperfil"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:text="@string/mural" />
+        android:text="@string/mural_legal" />
 
     <Button
         android:id="@+id/bTforum"
@@ -28,7 +28,7 @@
         android:layout_below="@+id/bTmural"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
-        android:text="@string/forum" />
+        android:text="@string/forum_b" />
 
     <Button
         android:id="@+id/bTfaleconosco"
@@ -48,6 +48,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
         android:text="@string/sair"
+        android:onClick="sair"
         android:textSize="@dimen/FonteBotoes" />
 
 </RelativeLayout>

@@ -71,5 +71,9 @@
     <string name="reclamacao">Reclamação</string>
     <string name="title_activity_enviado_com_sucesso">EnviadoComSucesso</string>
     <string name="enviadocomsucesso">Enviado com sucesso</string>
+    <string name="murallegal">Mural Legal</string>
+    <string name="mural_legal">MURAL LEGAL</string>
+    <string name="forum_a">FORUM CONHECIMENTO</string>
+    <string name="forum_b">FORUM</string>
 
 </resources>

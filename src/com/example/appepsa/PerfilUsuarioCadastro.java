@@ -50,5 +50,10 @@ public class PerfilUsuarioCadastro extends Activity {
 		
 		nome.requestFocus();
 	}
+	//FUNÇÃO DO BOTÃO MEU PERFIL CHAMANDO A TELA DE CADASTRADO COM SUCESSO
+	public void salvar(View v) {
+        Intent it = new Intent(this,EnviadoComSucesso.class);
+        startActivity(it);
+	}
 
 }

@@ -31,5 +31,9 @@ public class PerfilUsuarioMenuAlunoFuncionario extends Activity {
 		        Intent it = new Intent(this, FaleConosco.class);
 		        startActivity(it);
 			}
-
+	//FUNÇÃO DO BOTÃO MEU PERFIL CHAMANDO A TELA DE PERFIL DO USUARIO
+			public void sair(View v) {
+		        Intent it = new Intent(this, PerfilUsuarioMainActivity.class);
+		        startActivity(it);
+			}
 }

@@ -7,6 +7,8 @@
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="150dp"
         android:text="@string/enviadocomsucesso"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
@@ -14,6 +16,8 @@
         android:id="@+id/bTMenuPrincipal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="100dp"
         android:onClick="menuprincipal"
         android:text="@string/menuprincipal" />
 

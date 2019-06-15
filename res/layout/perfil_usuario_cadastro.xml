@@ -135,6 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.43"
             android:text="@string/salvar"
+            android:onClick="salvar"
             android:textSize="@dimen/FonteBotoes" />
 
         <Button
